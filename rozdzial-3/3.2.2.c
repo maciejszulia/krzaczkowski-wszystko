@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int funkcja(int *a, int *b)
+int* funkcja(int* a, int* b)
 {
 	if (*a > *b)
-		return *b;
+		return b;
 	else
-		return *a;
+		return a;
 }
 
 int main()

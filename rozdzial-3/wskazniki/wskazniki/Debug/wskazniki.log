@@ -1,3 +1,10 @@
-﻿  3.2.1.c
-C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\3.2.1.c(25): warning C4715: "potega”: niewszystkie ścieżki kodu zwracają wartość
-  wskazniki.vcxproj -> C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\wskazniki\Debug\wskazniki.exe
+﻿  3.2.2.c
+C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\3.2.2.c(6,11): warning C4047: "return": "int" różni się w poziomach operatorów pośrednich od "int *"
+C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\3.2.2.c(8,11): warning C4047: "return": "int" różni się w poziomach operatorów pośrednich od "int *"
+C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\3.2.2.c(15,39): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int"
+C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\3.2.2.c(15,38): warning C4024: "funkcja": różne typy dla formalnego i rzeczywistego parametru 1
+C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\3.2.2.c(15,42): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int"
+C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\3.2.2.c(15,41): warning C4024: "funkcja": różne typy dla formalnego i rzeczywistego parametru 2
+3.2.2.obj : error LNK2005: Element _funkcja jest już zdefiniowany w elemencie 3.2.1.obj
+3.2.2.obj : error LNK2005: Element _main jest już zdefiniowany w elemencie 3.2.1.obj
+C:\Users\macie\Documents\GitHub\krzaczkowski-wszystko\rozdzial-3\wskazniki\Debug\wskazniki.exe : fatal error LNK1169: znaleziono co najmniej jeden wielokrotnie zdefiniowany symbol
